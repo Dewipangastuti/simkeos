@@ -1,0 +1,400 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#hero {
+	width: 100%;
+	margin-bottom: 5px;
+}
+#hero .navbar {
+	/* border-bottom: 4px solid #0ea300; */
+	
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	font-weight: 800;
+	transition: 0.3s ease;
+	background: #00a9c7!important;
+	box-shadow: 10px 3px 10px #027386;
+}
+
+#hero .navbar a {
+	color: white;
+}
+
+#hero .navbar a:hover {
+	color: black;
+}
+#hero-banner {
+	position: relative;
+	top: 10px;
+	/* background: #a5ffcb; */
+	background: url(../img/background/bg-home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 95vh;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+#hero-banner .hero-content-text h3 {
+	font-size: 60px;
+	font-weight: 800;
+}
+#hero-banner .hero-content-text p {
+	width: 65%;
+	color: #6e6e6e;
+	line-height: 28px;
+	font-size: 15px;
+}
+.banner-img {
+	position: relative;
+	right: 50px;
+	padding-top: 20px;
+}
+.banner-img img {
+	width: 500px;
+}
+.hero-button {
+	margin-top: 40px;
+}
+.btn-about, .btn-all-produk,
+.btn-galeri {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 18px 33px;
+	border-radius: 35px;
+	font-size: 15px;
+	font-weight: 600;
+}
+.btn-about:hover,
+.btn-produk:hover {
+	color: rgb(3, 3, 3);
+}
+.btn-about {
+	background: #00a9c7;
+	transition: 0.7s ease;
+	box-shadow: 5px 5px 10px #005a69;
+}
+.btn-produk {
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 25px;
+	background-color: #00a9c7;
+	box-shadow: 5px 5px 10px #076c7e;
+	color: rgb(255, 255, 255);
+	transition: 0.3s ease-in-out;
+}
+.btn-about:hover {
+	background: #19d869;
+}
+.btn-produk:hover {
+	background: white;
+	color: #00a9c7;
+	/* border: 1px solid #076c7e; */
+}
+
+#aboutUs {
+	position: relative;
+	margin-top: 50px;
+}
+.aboutUs-header h3 {
+	font-size: 32px;
+	font-weight: 800;
+}
+.aboutUs-header h3 span {
+	color: #00a9c7;
+}
+.hr-head {
+	border-bottom: 3px solid #00a9c7;
+	width: 80px;
+	margin: 0 auto;
+}
+.aboutUs-content .img-aboutUs {
+	height: 300px;
+	border-radius:15px; 
+	box-shadow: 1px 1px 15px #046677;
+}
+.aboutUs-content h3,
+.produk-header h3 {
+	font-size: 46px;
+	font-weight: 600;
+}
+.aboutUs-content p {
+	color: #6e6e6e;
+	line-height: 28px;
+	font-size: 15px;
+}
+.aboutUs-content-check span {
+	font-weight: 800;
+	color: #000;
+	margin-left: 10px;
+}
+
+#produk {
+	position: relative;
+	margin-top: 50px;
+}
+.produk-header h4 {
+	font-size: 22px;
+	font-weight: 800;
+}
+.produk-header h4 span {
+	color: #00a9c7;
+}
+.hr-head {
+	border-bottom: 3px solid #00a9c7;
+	width: 60px;
+	margin: 0 auto;
+}
+.produk-content .img-produk {
+	height: 100px;
+}
+.produk-content h3,
+.produk-header h3 {
+	font-size: 46px;
+	font-weight: 600;
+}
+.produk-content p {
+	color: #6e6e6e;
+	line-height: 28px;
+	font-size: 15px;
+}
+.produk-content-check span {
+	font-weight: 800;
+	color: #000;
+	margin-left: 10px;
+}
+
+#porter {
+	position: relative;
+	margin-top: 50px;
+}
+.porter-header h3 {
+	font-size: 32px;
+	font-weight: 800;
+}
+.porter-header h3 span {
+	color: #00a9c7;
+}
+.hr-head {
+	border-bottom: 3px solid #00a9c7;
+	width: 80px;
+	margin: 0 auto;
+}
+.porter-content .img-porter {
+	padding: 0px;
+	height: 300px;
+	max-width: 400px;
+	border-radius:15px; 
+	box-shadow: 1px 1px 15px #046677;
+}
+.porter-content h3,
+.produk-header h3 {
+	font-size: 46px;
+	font-weight: 600;
+}
+.porter-content p {
+	color: #6e6e6e;
+	line-height: 28px;
+	font-size: 15px;
+}
+.porter-content-check span {
+	font-weight: 800;
+	color: #000;
+	margin-left: 10px;
+}
+
+
+#galeri {
+	position: relative;
+	margin-top: 50px;
+}
+
+.galeri-header h4 span {
+	color: #00a9c7;
+	font-weight: 800;
+	font-size: 32px;
+}
+.hr-head {
+	border-bottom: 3px solid #00a9c7;
+	width: 80px;
+	margin: 0 auto;
+}
+.galeri-content .img-galeri {
+	padding: 0px;
+	float: left;
+	height: 300px;
+	max-width: 300px;
+	border-radius:15px; 
+	box-shadow: 1px 1px 15px #b1b5b6;
+}
+.galeri-content h3,
+.galeri-header h3 {
+	font-size: 46px;
+	font-weight: 600;
+}
+.galeri-content p {
+	color: #6e6e6e;
+	line-height: 28px;
+	font-size: 15px;
+}
+.galeri-content-check span {
+	font-weight: 800;
+	color: #000;
+	margin-left: 10px;
+}
+
+
+#contact {
+	position: relative;
+	margin-top: 50px;
+}
+.contact-header h3 {
+	font-size: 22px;
+	font-weight: 500;
+}
+.contact-header h3 span {
+	color: #00a9c7;
+}
+.hr-head {
+	border-bottom: 3px solid #00a9c7;
+	width: 80px;
+	margin: 0 auto;
+}
+.contact-content .img-contact {
+	height: 300px;
+	padding: 0px;
+}
+.contact-content h3,
+.contact-header h3 {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.link {
+	text-decoration: none;
+	padding: 10px;
+	color:#00a9c7 ;
+}
+
+
+.btn-galeri {
+	border: 2px solid #00a9c7;
+	background: #00a9c7;
+	transition: 0.5s ease-in-out;
+}
+.btn-galeri:hover {
+	background: transparent;
+	/* color: #026172; */
+}
+.img-galeri {
+	margin: auto;
+	align: center;
+	transition: 0.5s ease;
+}
+.img-galeri:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+#produk {
+	/* background: url(../img/background/bg-home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; */
+	background: #f1f6fa;
+	margin-top: 50px;
+	padding: 15px 10px 35px;
+}
+.produk-header h3 {
+	font-size: 32px;
+	font-weight: 800;
+}
+.produk-header h3 span {
+	color: #00a9c7;
+}
+.produk-content .col-md-4 {
+	margin-top: 10px;
+	background: url(../img/background/bg-home.jpg);
+}
+.btn-all-produk {
+	background: #00a9c7;
+	transition: .3s ease-in-out;
+	box-shadow: 5px 5px 5px #046677;
+}
+.btn-all-produk:hover {
+	color: #00a9c7;
+	background: transparent;
+}
+
+
+#footer {
+	height: 95vh;
+	background: #00a9c7;
+	color: #fff;
+}
+.footer-konten h5 {
+	font-size: 18px;
+	font-weight: 600;
+}
+.footer-konten p {
+	color: #f1f6fa;
+}
+.footer-about p,
+.footer-button-our,
+.footer-kontak p{
+	margin-top: 15px;
+	font-size: 15px;
+}
+.footer-hr {
+	border-bottom: 2px solid #ffffff;
+	width: 30px;
+}
+.footer-button-our a {
+	display: flex;
+	margin-top: 5px;
+	color: #fff;
+	text-decoration: none;
+	transition: .3s ease-in-out;
+	font-weight: 400;
+}
+.footer-button-our a:hover {
+	transform: translateX(10px);
+	color: #00a9c7;
+}
+.footer-area {
+	height: 80px;
+	padding: 10px;
+	background: #fff;
+	color: #00a9c7;
+	box-shadow: 2px 3px 15px #045463;
+	border-radius: 15px;
+}
+.footer-area p {
+	margin-top: 18px;
+	font-size: 18px;
+	}
+
+	@media screen and (max-width: 480px) {
+	#hero-banner {
+		overflow: hidden;
+	}
+	.banner-img img {
+		width: 50px!important;
+	}
+	#aboutUs {
+		overflow: visible;
+	}
+	#produk {
+		overflow: visible;
+	}
+	#poter {
+		overflow: visible;
+	}
+	#galeri {
+		overflow: visible;
+	}
+	}
